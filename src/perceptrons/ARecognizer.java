@@ -18,8 +18,10 @@ public class ARecognizer {
             
     
     public static void main(String[] args) {
-        
-        LearningModule learner = new LearningModule("letter-recognition.data");
+        /* 
+         *enter the path of the file to be red in here. default is sample given with package
+         */
+        LearningModule learner = new LearningModule(System.getProperty("user.dir") + "\\content\\letter-recognition.data");
         
     }
     
